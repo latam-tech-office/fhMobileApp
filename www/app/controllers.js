@@ -25,7 +25,7 @@ myApp.controller('MainCtrl', function($scope, fhcloud) {
       {"flightOrigin":"MEX","flightDestination":"EZE","flightNo":"AM12", "flightDepTime":"11:20", "flightArrTime": "13:40"},
       {"flightOrigin":"MEX","flightDestination":"SCL","flightNo":"AM22", "flightDepTime":"9:00", "flightArrTime": "12:40"},
       {"flightOrigin":"MEX","flightDestination":"BOG","flightNo":"AM33", "flightDepTime":"2:00", "flightArrTime": "5:40"},
-      {"flightOrigin":"MEx","flightDestination":"GRU","flightNo":"AM44", "flightDepTime":"14:00", "flightArrTime": "15:40"}
+      {"flightOrigin":"MEX","flightDestination":"GRU","flightNo":"AM44", "flightDepTime":"14:00", "flightArrTime": "15:40"}
       ];
   $scope.hotelRecords=[
     {"hotelCity":"SCL","hotelChain":"Sheraton", "hotelName": "Santiago", "hotelStars":5},
@@ -44,7 +44,7 @@ myApp.controller('MainCtrl', function($scope, fhcloud) {
     {"carCity":"SCL","rentalCompany":"Hertz", "carType":"Econ"},
     {"carCity":"SCL","rentalCompany":"Hertz", "carType":"Prem"},
     {"carCity":"EZE","rentalCompany":"Dollar", "carType":"Econ"},
-    {"carCity":"EZE","rentalCompany":"Localiza", "carType":"Econ"},
+    {"carCity":"EZE","rentalCompany":"Hertz", "carType":"Econ"},
     {"carCity":"BOG","rentalCompany":"Avis", "carType":"Econ"},
     {"carCity":"BOG","rentalCompany":"Hertz", "carType":"Econ"},
     {"carCity":"MEX","rentalCompany":"Hertz", "carType":"Econ"},
